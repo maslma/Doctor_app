@@ -34,6 +34,8 @@ class AppTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      cursorColor: ColorManager.primaryColor,
+      textInputAction: TextInputAction.next,
       controller: controller,
       validator: (value) => validator(value),
       decoration: InputDecoration(

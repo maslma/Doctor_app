@@ -39,13 +39,13 @@ dependencies:
   # State managment
   flutter_bloc: ^9.1.1
   # Code generator (mainly used with cubit & retrefit )
-  freezed: ^3.0.6
+  freezed: ^3.0.3
   freezed_annotation: ^3.0.0
   # For depedecies enjecation
   get_it: ^8.0.3
   # Automatically generate code for converting to and from JSON by annotating Dart classes.
-  json_serializable: ^6.9.5
   json_annotation: ^4.9.0
+  json_serializable: ^6.9.4
   # Networking
   dio: ^5.8.0+1
   retrofit: ^4.4.2

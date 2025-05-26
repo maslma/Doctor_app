@@ -1,6 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
 part 'api_error_model.g.dart';
 
+// JsonSerializable is used to automatically generate code for formJson and toJson.
 @JsonSerializable()
 class ApiErrorModel {
   final String? message;

@@ -111,6 +111,7 @@ class _$InitialImpl<T> implements _Initial<T> {
   }
 
   @override
+  // ignore: non_nullable_equals_parameter
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType && other is _$InitialImpl<T>);
@@ -227,6 +228,7 @@ class _$SignupLoadingImpl<T> implements SignupLoading<T> {
   }
 
   @override
+  // ignore: non_nullable_equals_parameter
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType && other is _$SignupLoadingImpl<T>);
@@ -361,6 +363,7 @@ class _$SignupSuccessImpl<T> implements SignupSuccess<T> {
   }
 
   @override
+  // ignore: non_nullable_equals_parameter
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
@@ -513,6 +516,7 @@ class _$SignupErrorImpl<T> implements SignupError<T> {
   }
 
   @override
+  // ignore: non_nullable_equals_parameter
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
